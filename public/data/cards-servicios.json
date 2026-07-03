@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "Rapidez",
+    "title": "Web Básica en 3 días",
+    "description": "Obtén un sitio web profesional con diseño moderno, alto rendimiento y entrega rápida para impulsar tu negocio digital.",
+    "image": "/public/img/projects/web-en-3-dias.webp",
+    "alt": "Sitio web básico entregado en tres días",
+    "url": "/servicios/web-basica",
+    "buttonText": "Más información"
+  },
+  {
+    "tag": "Negocios",
+    "title": "Sitio Web Completo",
+    "description": "Desarrollamos sitios web profesionales con diseño moderno, alto rendimiento y funciones para hacer crecer tu negocio.",
+    "image": "/public/img/projects/web-pro.webp",
+    "alt": "Desarrollo de un sitio web corporativo completo",
+    "url": "/servicios/web-completa",
+    "buttonText": "Más información"
+  },
+  {
+    "tag": "Apps",
+    "title": "Aplicación Móvil",
+    "description": "Creamos aplicaciones móviles con diseño moderno, alto rendimiento y funciones para impulsar tu proyecto digital hoy.",
+    "image": "/public/img/projects/apps.webp",
+    "alt": "Desarrollo de aplicación móvil para Android e iOS",
+    "url": "/servicios/aplicacion-movil",
+    "buttonText": "Más información"
+  },
+  {
+    "tag": "Gaming",
+    "title": "Videojuego Básico",
+    "description": "Desarrollamos videojuegos básicos con diseño moderno, alto rendimiento y mecánicas para impulsar tu proyecto digital.",
+    "image": "/public/img/projects/videojuegos.webp",
+    "alt": "Desarrollo de un videojuego básico para PC y dispositivos móviles",
+    "url": "/servicios/videojuego-basico",
+    "buttonText": "Más información"
+  }
+]

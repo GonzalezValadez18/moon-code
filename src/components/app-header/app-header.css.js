@@ -127,6 +127,9 @@ export const appHeaderStyles = [
           left: unset;
           width: 60vw;
           height: 100%;
+          background-color: transparent;
+          backdrop-filter: unset;
+          -webkit-backdrop-filter: unset;
         }
 
         ul {
