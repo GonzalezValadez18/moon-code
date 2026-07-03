@@ -4,8 +4,7 @@ import { css } from "lit";
 export const resetStyles = css`
   :host {
     box-sizing: border-box;
-    display: block;
-    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", sans-serif;
+    font-family: sans-serif;
   }
 
   *,

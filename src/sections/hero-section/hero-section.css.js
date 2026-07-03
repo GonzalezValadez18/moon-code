@@ -136,7 +136,7 @@ export const sectionHeroStyles = [
           width: 45%;
           height: auto;
           padding: 10px;
-          border: 2px solid #9d7bbd;
+          border: 2px solid #6820ac;
           color: white;
           text-align: center;
           z-index: 1;
@@ -148,7 +148,7 @@ export const sectionHeroStyles = [
 
           @media screen and (min-width: 999px) {
             cursor: pointer;
-            transition: transform 0.2s ease;
+            transition: all 0.4s ease;
 
             &::before {
               content: "";
@@ -157,12 +157,13 @@ export const sectionHeroStyles = [
               left: 0;
               width: 100%;
               height: 100%;
-              background-color: #04286e;
+              background-color: #00aef0;
               z-index: -1;
               transition: top 0.4s ease;
             }
 
             &:hover {
+              color: black;
               &::before {
                 top: 0;
               }
@@ -177,9 +178,8 @@ export const sectionHeroStyles = [
           width: 45%;
           height: auto;
           padding: 10px;
-          border: 2px solid #9d7bbd;
-          background-color: #9d7bbd;
-
+          border: 2px solid #6820ac;
+          background-color: #6820ac;
           color: white;
           text-align: center;
           z-index: 1;
@@ -192,7 +192,9 @@ export const sectionHeroStyles = [
           @media screen and (min-width: 999px) {
             cursor: pointer;
             transition: transform 0.2s ease;
-            background-color: #04286e;
+            background-color: #00aef0;
+            transition: all 0.4s ease;
+
             &::before {
               content: "";
               position: absolute;
@@ -200,12 +202,13 @@ export const sectionHeroStyles = [
               left: 0;
               width: 100%;
               height: 100%;
-              background-color: #9d7bbd;
+              background-color: #6820ac;
               z-index: -1;
-              transition: top 0.4s ease;
+              transition: all 0.4s ease;
             }
 
             &:hover {
+              color: black;
               &::before {
                 top: 100%;
               }
