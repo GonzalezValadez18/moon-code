@@ -36,13 +36,13 @@ export class AppTimeLine extends LitElement {
     }
   }
   firstUpdated() {
-    observeVisibility(this.renderRoot.querySelectorAll(".line, h3"), "is-into");
+    observeVisibility(this.renderRoot.querySelectorAll(".line, video"), "is-into");
   }
   render() {
     return html`
       <section class="app-timeline">
-        <span class="line"></span>
         <div class="items">
+          <span class="line"></span>
           ${this.items.map(
             (item) => html`
               <div class="item">
@@ -56,6 +56,11 @@ export class AppTimeLine extends LitElement {
             `,
           )}
         </div>
+        <video class="hero-background" autoplay loop muted playsinline>
+          <source src="/img/banners/banner-hero-main.webm" type="video/webm" />
+          <source src="/public/videos/scrum-2.mp4" type="video/mp4" />
+          Tu navegador no soporta videos
+        </video>
       </section>
     `;
   }

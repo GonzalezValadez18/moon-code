@@ -35,6 +35,7 @@ export class HomePage extends LitElement {
       <app-card-link data="/public/data/cards-servicios.json"></app-card-link>
       <app-title line-color="#048872" line-align="right" text="Asi creamos la magia"></app-title>
       <app-timeline data="/public/data/timeline.json"></app-timeline>
+      <app-title line-color="#b40589" line-align="left" text="¿Por qué elegir MOON CODE?"></app-title>
     `;
   }
 }
