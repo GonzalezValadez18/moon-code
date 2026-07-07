@@ -11,6 +11,7 @@ export const appTitleStyles = [
       flex-direction: column;
       align-items: start;
       gap: 0px;
+      margin-top: 30px;
       .line {
         width: 50%;
         height: 15px;
@@ -31,6 +32,7 @@ export const appTitleStyles = [
         @media screen and (min-width: 999px) {
           width: 60%;
           height: 30px;
+          margin-top: 100px;
         }
       }
 

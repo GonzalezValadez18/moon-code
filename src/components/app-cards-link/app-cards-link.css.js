@@ -56,7 +56,7 @@ export const appCardLinkStyles = [
             width: calc((100vw - 200px) / 4);
             transition: all 0.3s ease-in-out;
             &:hover {
-              box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+              box-shadow: 0 0 60px rgba(255, 255, 255, 0.09);
               img {
                 transform: scale(1.1);
               }
@@ -94,7 +94,7 @@ export const appCardLinkStyles = [
               }
             }
             .description {
-              font-size: 14px;
+              font-size: 15px;
               color: #f6eefc;
               margin-bottom: 15px;
               @media (min-width: 999px) {
@@ -105,7 +105,7 @@ export const appCardLinkStyles = [
               display: flex;
               align-items: center;
               text-decoration: none;
-              color: #6820ac;
+              color: #b365fc;
 
               @media (min-width: 999px) {
                 transition: all 0.3s ease-in-out;

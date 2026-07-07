@@ -15,6 +15,7 @@ export class AppTitle extends LitElement {
     return {
       lineColor: { type: String, attribute: "line-color" },
       lineAlign: { type: String, attribute: "line-align" },
+      text: { type: String, attribute: "text" },
     };
   }
 
@@ -33,7 +34,7 @@ export class AppTitle extends LitElement {
     return html`
       <div class="app-title">
         <i class="line ${alignment}" style="${lineStyle}"></i>
-        <h3>Lo más popular</h3>
+        <h3>${this.text || "Lo más popular"}</h3>
       </div>
     `;
   }

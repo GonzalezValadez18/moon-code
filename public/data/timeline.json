@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "meeting",
+    "title": "Descubrimiento",
+    "subtitle": "Conocemos tu proyecto",
+    "content": "Nos reunimos para entender tus objetivos, necesidades, público y funcionalidades. Definimos el alcance y elaboramos una propuesta clara."
+  },
+  {
+    "icon": "planning",
+    "title": "Planeación",
+    "subtitle": "Organizamos la estrategia",
+    "content": "Definimos el alcance, establecemos el cronograma, priorizamos funcionalidades y seleccionamos las tecnologías adecuadas para garantizar un desarrollo ordenado y eficiente."
+  },
+  {
+    "icon": "design",
+    "title": "Diseño",
+    "subtitle": "Creamos la experiencia",
+    "content": "Diseñamos una interfaz moderna, intuitiva y alineada con tu identidad. Nos enfocamos en ofrecer una excelente experiencia de usuario antes de comenzar el desarrollo."
+  },
+  {
+    "icon": "development",
+    "title": "Desarrollo",
+    "subtitle": "Construimos tu solución",
+    "content": "Desarrollamos tu proyecto utilizando tecnologías modernas, código limpio y buenas prácticas para garantizar un producto rápido, seguro y escalable."
+  },
+  {
+    "icon": "testing",
+    "title": "Pruebas",
+    "subtitle": "Validamos cada detalle",
+    "content": "Realizamos pruebas funcionales, de rendimiento y compatibilidad para asegurar que cada característica funcione correctamente antes de su lanzamiento."
+  },
+  {
+    "icon": "launch",
+    "title": "Lanzamiento",
+    "subtitle": "Publicamos tu proyecto",
+    "content": "Desplegamos la solución en producción y brindamos acompañamiento inicial para garantizar un lanzamiento exitoso y un funcionamiento óptimo."
+  }
+]
